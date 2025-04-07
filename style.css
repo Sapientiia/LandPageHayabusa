@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+    
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+body {
+    line-height: 1.6;
+    background-color: #000000;
+    color: #fff;
+    
+
+}
+@media screen and (min-width: 769px) {
+    body{
+        position: absolute;
+    }
+    
+}
+
+
+header {
+    background-color:black;
+    color: white;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-right: 1200px;
+    font-family: Roboto Condensed;
+    
+}
+nav ul li {
+    display: flex;
+    margin-right: 0.5rem;
+    transition: transform 0.4s;
+}
+
+nav ul li:hover {
+    transform: scale(1.15); 
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+
+
+.Rectangle {
+    position: relative;
+}
+
+.Rectangle::before {
+    content: '';
+    position:absolute;
+    width: 215%;
+    height: 0.1px; 
+    background-color: white; 
+    bottom: 0;
+    left: 205.62px;
+    top: 63px;
+}
+
+.suzuki_logo_h1 {
+    position: absolute;
+    top: 50%; 
+    left: 45%; 
+    transform: translate(-50%, -50%); 
+}
+
+.ellipse {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+    margin-right: -40px;
+
+}
+@media (max-width: 873px) {
+    .ellipse {
+        width: 800px; 
+        height: 800px; 
+        margin-right: -1000px;
+        position:absolute;
+    }
+}
+.ellipse img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+.hero h1 {
+    color: #ffffff;
+text-align: left;
+font: 400 95.1px 'Alatsi', sans-serif;
+position: relative;
+width: 868.75px;
+height: 240.32px;
+transition: transform 0.4s;
+}
+
+.hero h1:hover{
+    transform: scale(1.01);  
+}
+.hero h2 {
+    color: #8d0915;
+text-align: left;
+font: 400 30.84px 'Roboto Condensed', sans-serif;
+position: relative;
+width: 190.47px;
+height: 40.22px;
+transform-origin: 0 0;
+transform: rotate(0deg) scale(1, 1);
+}
+
+.hero p {
+    color: #ffffff;
+text-align: left;
+font: 400 25.7px 'Roboto Condensed', sans-serif;
+position: relative;
+width: 726.1px;
+height: 156.79px;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 80px;
+        width: 700.75px;
+        text-align: left;
+    }
+    .hero h2 {
+        font-size: 30px;
+        width:190.47px;
+        text-align: left;
+        margin-top: -40px;
+    }
+    .hero p {
+        font-size: 20px;
+        width: 500.1px;
+        text-align: left;
+    }
+}
+.rectangle-4 {
+    background: rgba(40, 45, 48, 0.50);
+border-radius: 0px 60px 60px 60px;
+width: 1490.75px;
+height: 156.79px;
+position: relative;
+z-index: -1;
+}
+
+.rectangle-5 {
+    background: #000000;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    margin: auto;
+    padding: 0;
+
+}
+
+@media (max-width: 768px) {
+    .rectangle-4 {
+        width: 1000px;
+        border-radius: 0;
+        height: 100px; /* Ajuste a altura conforme necessário */
+    }
+    .rectangle-5 {
+        width: 1415px;
+        height: 250px; /* Ajuste a altura conforme necessário */
+    }
+}
+.SPEED-AND-LEGACY h1 {
+    color: #ffffff;
+    text-align: center;
+    font: 400 82.25px 'Alatsi', sans-serif;
+    position: relative;
+    width: 763.37px;
+    height: 105.38px;
+    margin: 0 auto; 
+    line-height: 105.38px; 
+    transition: transform 0.4s;
+}
+
+.SPEED-AND-LEGACY h1:hover {
+    transform: scale(1.01);  
+}
+
+.li {
+    border-style: solid;
+    border-color: #717171;
+    border-width: 1.29px 0 0 0;
+    width: 548.75px; 
+    height: 0px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    left: 650px; 
+    
+}   
+@media (max-width: 768px) {
+    .SPEED-AND-LEGACY h1 {
+    font-size: 48px; 
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 300px; 
+    }
+
+    .li {
+        width: 75%;
+       margin-left:-130px ;
+    }
+}
+.Ninjadefaul {
+    width: 550px;
+    height: 350px;
+    position: relative;
+    margin-top: 55px;
+    animation: float 5s ease-in-out infinite;
+    }
+
+    .Hayabusa-Ninja-350 h2 {
+        color: #ffffff;
+    text-align: center;
+    font: 400 48px 'Alatsi', sans-serif;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 953px; 
+    }
+
+    .Hayabusa-Ninja-350 p {
+        color: #ffffff;
+text-align: left;
+font: 400 36px 'Roboto Condensed', sans-serif;
+position: relative;
+width: 1200px;
+height: 300px;
+float: right;
+margin-top: 150px;
+    }
+
+    @media (max-width: 768px) {
+
+        .Ninjadefaul {
+            width: 100%;
+            height: auto; 
+            margin-top: 30px; 
+        }
+
+        .Hayabusa-Ninja-350 h2 {
+            font-size: 36px; 
+            margin-top: 30px; 
+            margin-left: 600px; 
+            text-align: right;
+            width: 500px;
+            height: 100px; 
+        }
+    
+        .Hayabusa-Ninja-350 p {
+            font-size: 24px; 
+            width: 900px;
+            height: 100px; 
+            margin: 0; 
+            text-align: left; 
+            float: right; 
+            margin-top: 100px; 
+            margin-right: -940px;
+        }
+    }
+    .Hayabusa-Ninja-370-M h2 {
+        color: #ffffff;
+text-align: center;
+font: 350 48px 'Alatsi', sans-serif;
+position: relative;
+width: 1012px;
+height: 50px;
+margin-top: 140px;
+    }
+
+    .NinjaM {
+        width: 539.1px;
+        height: 350px;
+        position: relative;
+        float: right;
+        animation: float 5s ease-in-out infinite;
+        margin-right: 100px;
+    }
+
+            .Hayabusa-Ninja-370-M p {
+                color: #ffffff;
+        text-align: left;
+        font: 400 36px 'Roboto Condensed', sans-serif;
+        position: relative;
+        width: 1062px;
+        height: 250px;
+        margin-top: 40px;
+        margin-left: 40px;
+            }
+
+            @media (max-width: 768px) {
+                .Hayabusa-Ninja-370-M h2 {
+                    font-size: 36px; 
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 20px; 
+                    margin-left: 200px;
+                }
+            
+                .NinjaM {
+                    width: 100%;
+                    height: auto; 
+                    margin-top: -50px; 
+                    float: right; 
+                    margin-right: -900px;
+                }
+            
+                .Hayabusa-Ninja-370-M p {
+                    font-size: 24px; 
+                    width: 900px;
+                    height: auto; 
+                    margin-top: 20px; 
+                    margin-left: 20px; 
+                    text-align: left; 
+                }
+            }
+            .Hayabusa-Ninja-400 h2 {
+                color: #ffffff;
+    text-align: center;
+    font: 400 48px 'Alatsi', sans-serif;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 1053px;
+            }
+
+            .NinjaS {
+                width: 525px;
+                height: 350px;
+                position: relative;
+                margin-top: 150px;
+                float: left;
+                animation: float 5s ease-in-out infinite;
+            }
+            .Hayabusa-Ninja-400 p {
+                color: #ffffff;
+                text-align: left;
+                font: 400 36px 'Roboto Condensed', sans-serif;
+                position: relative;
+                width: 1200px;
+                height: 300px;
+                float: right;
+                margin-top: 180px;
+            }
+
+            @media (max-width: 768px) {
+                .Hayabusa-Ninja-400 h2 {
+                    font-size: 36px; 
+            margin-top: 150px; 
+            margin-left: 600px; 
+            text-align: right;
+            width: 500px;
+            height: 100px; 
+                }
+            
+                .NinjaS {
+                    width: 100%;
+                    height: auto; 
+                    margin-top: 130px; 
+                
+                }
+            
+                .Hayabusa-Ninja-400 p {
+                    font-size: 24px; 
+            width: 900px;
+            height: 100px;
+            margin: 0; 
+            text-align: left; 
+            float: right; 
+            margin-top: 220px; 
+            margin-right: -940px;
+                }
+            }
+            .features-specifications h2 {
+                color: #ffffff;
+            text-align: center;
+            font: 400 64px 'Alatsi', sans-serif;
+            position: absolute;
+            width: 818.32px;
+            height: 105px;
+            margin-top: 100px;
+            margin-left: 500px;
+            transition: transform 0.4s;
+            }
+
+            .features-specifications h2:hover {
+                transform: scale(1.01);  
+            }
+            .features-specifications {
+                width: 43%; 
+                float: left; 
+            }
+
+            .text-left {
+                color: #FFF;
+            
+            font-family: Roboto Condensed;
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 200px;
+            margin-left: 40px;
+            }
+
+            .quadrado-cinza {
+                background: #949494;
+                border-radius: 4px;
+                width: 959px;
+                height: 570px;
+                position: relative;
+                float: left;
+                margin-top: 200px;
+                z-index: -1;
+                margin-left: 80px;
+            }
+
+            .engine {
+                position: absolute;
+                margin-top: 900px;
+                margin-left: 850px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .engine p {
+                color: #0a0909;
+                text-align: left;
+                font: 32px 'Roboto Condensed', sans-serif;
+                text-decoration: underline;
+                display: flex;
+                margin-bottom: 190px; 
+                margin-left: 70px;
+                margin-top: -140px;
+            }
+
+            .suzuki-logo {
+                max-width: 50%; 
+                height: auto;
+                position: absolute;
+                margin-top: 1200px; 
+                right: 60px; 
+            }
+
+            
+            @media (max-width: 768px) {
+                .features-specifications h2 {
+                    font-size: 36px; 
+                    width: 818.32px;
+                    text-align: center;
+                    margin-top: 20px; 
+                    margin-left: 260px; 
+                }
+            
+                .text-left {
+                    font-size: 24px; 
+                    margin-top: 100px;
+                    margin-left: 20px; 
+                    text-align: left; 
+                    width: 600px;
+                }
+            }
+
+            @media (max-width: 768px) {
+            .quadrado-cinza{
+                width: 700px;
+                height: 380px;
+                float: left;
+                margin-top: -375px;
+                margin-left: 650px;
+            }
+                .engine {
+                    font-size: 4px;
+                    position: relative; 
+                    float: left;
+                    margin-top: -400px; 
+                    margin-left: 700px; 
+                    text-align: left;
+                }
+            
+                .engine p {
+                    text-align: left;
+                    margin-bottom: 20px;
+                    margin-left: 10px;
+                    margin-right: 400px; 
+                    margin-top: 20px;
+                    width: 600px;
+                    font-size: 24px;
+                }
+            
+                .suzuki-logo {
+                    max-width: 50%;  
+                    height: auto; 
+                    position: absolute; 
+                    margin-top: 770px; 
+                    right: -920px;  
+                }
+            }
